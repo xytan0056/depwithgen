@@ -2,6 +2,7 @@ package client
 
 import "fmt" 
 
-func some() {
-	fmt.Print("I'm generated client") 
+func Client(id string) string {
+	fmt.Println("I'm generated client") 
+	return "client@"+id 
 }
